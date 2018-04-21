@@ -1,54 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>report</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome-free-5.0.9/web-fonts-with-css/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-
-    <!-- navbar -->
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-color">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto p-3">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">หน้าแรก
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link " href="report.html">แจ้งคนโกง</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="help.html">โดนโกงทำอย่างไร?</a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <button class="btn btn-sm btn-outline-secondary" type="button">
-                            <a class="nav-link" href="donate.html">
-                                <i class="fas fa-donate"></i> บริจาคเพื่อเป็นกำลังใจ</a>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
     <articel>
 
 
@@ -100,20 +49,3 @@
         
         </section>
     </articel>
-
-
-<!-- footer -->
-    <footer class="text-center mt-5">
-
-            <span>จัดทำเพื่อรวบรวมรายชื่อคนโกงทั่วประเทศไทย โดยทีมงาน</span>
-            <a href="index.html" target="_blank">Minimal.com</a>
-        </footer>
-
-
-
-
-
-</body>
-
-
-</html>
