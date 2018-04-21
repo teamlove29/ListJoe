@@ -17,13 +17,13 @@
                             </div>
                             <div class="card-footer bg-dark text-white">
                                 <h4>แจ้งยอดบริจาค</h4>
-                                <div class="input-group" style="width: 500px; margin: auto auto; ">
+                                <div class="input-group" style="width:50%; margin: auto auto; ">
                                     <div class="input-group-prepend">
                                       <span class="input-group-text" id="basic-addon1">ชื่อ/นามสมมุติ</span>
                                     </div>
                                     <input type="text" name='name-donate' id='name-donate' class='form-control text-center ' placeholder="ชื่อ, นามสมมุติ">
                                   </div>
-                                  <div class="input-group" style="width: 500px;  margin: auto auto;">
+                                  <div class="input-group" style="width:50%;  margin: auto auto;">
                                     <div class="input-group-prepend">
                                       <span class="input-group-text" >ยอดบริจาค</span>
                                     </div>
