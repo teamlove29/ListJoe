@@ -27,7 +27,7 @@
             <div class=" text-white text-center mt-5">
                 <h5>รายชื่อคนบริจารสูงสุด</h5>
                 <div class="container">
-                    <button type="button" class="btn btn-outline-warning bt-lg">คุณ Marutthep Rompho 3,000,000 บาท</button>
+                    <button type="button" class="btn btn-outline-warning bt-lg">คุณ Marutthep Rompho 3,000.00 บาท</button>
                     <br>
                 </div>
             </div>
