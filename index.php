@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- ชื่อเว็ป -->
-    <title>index</title>
+    <title>ตรวจเช็คคนโกง</title>
 
 
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
