@@ -12,7 +12,6 @@ include('../connect.php');
             $account_number = $_REQUEST['acc_num'];
             $tel_number = $_REQUEST['tel'];
             $query = $pdo->prepare("INSERT INTO tb_list SET id_card='$id_card',account_number='$account_number',tel_number='$tel_number' ");
-            print_r($query);
             $query->execute();
             $id = $pdo->lastInsertId();
             $files = $_FILES['pic'];
