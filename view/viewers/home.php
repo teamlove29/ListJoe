@@ -6,7 +6,7 @@
                 <h1>รายชื่อคนโกง</h1>
                 <div class="bg-gold p-3">
                     <i class="far fa-address-book fa-3x mr-2 ml-5"></i>
-                    <span>21,048 คน</span>
+                    <span>{{num}}</span>
                     <p class="ml-4">จำนวณรายชื่อคนโกง</p>
                 </div>
             </div>

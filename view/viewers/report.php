@@ -10,31 +10,30 @@
                     </div>
         <section>
         
-        <form>
+        <form id='myform2' name='myform2'>
             <div class="container">
                 <!-- กรอกข้อมูล -->
                 <div class="form-group row text-right">
                     <label for="ID" class="text-white col-xl-3 col-4">รหัสบัตรประชาชน</label>
-                    <input type="text" name='ID' id='ID' class='form-control col-xl-7 col-7' placeholder="บัตรประชาชน">
+                    <input type="text" ng-model='id_card' name='id_card' id='id_card' class='form-control col-xl-7 col-7' placeholder="บัตรประชาชน">
                     <div class="col-xl-2 col-1"></div>
+
                     <label for="Money" class="text-white col-xl-3 col-4 mt-2">เลขบัญชี</label>
-                    <input type="text" pattern="[0-9]{1,}" name='Money' id='Money' class='form-control col-xl-7 col-7 mt-2' placeholder="เลขบัญชี" required>
+                    <input type="text" ng-model='acc_num' name='acc_num' id='acc_num' class='form-control col-xl-7 col-7 mt-2' placeholder="เลขบัญชี">
                     <div class="col-xl-2 col-1"></div>
+
                     <label for="tel" class="text-white col-xl-3 col-4 mt-2">เบอร์โทร</label>
-                    <input type="text" name='tel' id='tel' class='form-control col-xl-7 col-7 mt-2' placeholder="เบอร์โทร">
+                    <input type="text" ng-model='tel'name='tel' id='tel' class='form-control col-xl-7 col-7 mt-2' placeholder="เบอร์โทร">
                     <div class="col-xl-2 col-1"></div>
                 </div>
                 <!-- อัพโหลดหลักฐาน -->
                         <div class="form-group row text-white ">
                             <div class="input-group">
                                 <span class="input-group-btn col-xl-3 col-4 text-right">
-                                    <!-- <span class="btn btn-outline-warning btn-file mr-3 ">เลือกไฟล์ <input type="file" id="imgInp"> -->
                                     </span>
                                 </span>
-                                <input id='imgInp' type="file" class="form-control col-xl-7 col-7" readonly placeholder="รูปหลักฐาน" multiple ng-model='img'>
+                                <input type='file' id ='pic' name='pic[]' multiple>
                             </div>
-                                <!-- <img id='img-upload'/>
-                                <div class="col-xl-2"></div> -->
                         </div>
 
 
