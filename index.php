@@ -75,7 +75,7 @@
     <!-- framwork -->
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
+
     <!-- import js -->
     <script src="./controller/app.js"></script>
     <script src="./controller/homeCtrl.js"></script>
