@@ -13,11 +13,11 @@
             <div class="container">
                 <div class="form-group row">
                     <div class="col-2 col-md-3"></div>
-                    <input type="text" name='search' id='search' class='form-control col-8 col-md-6 text-center' placeholder="เลือกใส่หนึ่งอย่าง บัตรประชาชน, เลขบัญชี, เบอร์โทร">
+                    <input type="text" name='search' id='search' class='form-control col-8 col-md-6 text-center' placeholder="เลือกใส่หนึ่งอย่าง บัตรประชาชน, เลขบัญชี, เบอร์โทร" ng-model='data'>
                     <div class="col-2 col-md-3"></div>
                     <!-- ค้นหารายชื่อ -->
                     <div class="col-4 col-md-4 col-xl-5"></div>
-                    <input type="submit" name='submit' value="ค้นหารายชื่อ" class="col-4 col-md-4 col-xl-2 mt-3  screen_btn_link">
+                    <input type="submit" name='submit' value="ค้นหารายชื่อ" class="col-4 col-md-4 col-xl-2 mt-3  screen_btn_link" ng-click='findData(data)'>
                     <div class="col-4 col-md-4 col-xl-5"></div>
                 </div>
             </div>
